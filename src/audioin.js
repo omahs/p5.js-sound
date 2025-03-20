@@ -72,7 +72,7 @@ class AudioIn {
     /**
      * Used to access the "audio input" from the user's microphone.
      * It creates a MediaStream object that can be used to start and stop the mic and measure its volume using the getLevel() method or by connecting it to an FFT object.
-     * MediaStream object can also be use to check if the browser supports MediaStreamTrack and mediaDevices and to add the AudioIn object to the soundArray for disposal on close.
+     * MediaStream object can also be used to check if the browser supports MediaStreamTrack and mediaDevices and to add the AudioIn object to the soundArray for disposal on close.
      * @property {MediaStreamAudioSourceNode|null} mediaStream
      */
     this.mediaStream = null;
