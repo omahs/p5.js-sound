@@ -31,7 +31,7 @@ p5.prototype.setBPM = function (bpm, rampTime) {
  *  could be a snare, and another could be the bassline.</p>
  *
  *  <p>The first parameter is a name so that the phrase can be
- *  modified or deleted later. The callback is a a function that
+ *  modified or deleted later. The callback is a function that
  *  this phrase will call at every step—for example it might be
  *  called <code>playNote(value){}</code>. The array determines
  *  which value is passed into the callback at each step of the
@@ -110,7 +110,7 @@ class Phrase {
  *  @class p5.Part
  *  @constructor
  *  @param {Number} [steps]   Steps in the part
- *  @param {Number} [tatums] Divisions of a beat, e.g. use 1/4, or 0.25 for a quater note (default is 1/16, a sixteenth note)
+ *  @param {Number} [tatums] Divisions of a beat, e.g. use 1/4, or 0.25 for a quarter note (default is 1/16, a sixteenth note)
  *  @example
  *  <div><code>
  *  let box, drum, myPart;
@@ -246,7 +246,7 @@ class Part {
   }
 
   /**
-   *  Stop the part and cue it to step 0. Playback will resume from the begining of the Part when it is played again.
+   *  Stop the part and cue it to step 0. Playback will resume from the beginning of the Part when it is played again.
    *
    *  @method  stop
    *  @for p5.Part
