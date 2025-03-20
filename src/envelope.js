@@ -866,9 +866,9 @@ class Envelope {
    *
    *  @method  scale
    *  @for p5.Envelope
-   *  @param  {Number} inMin  input range minumum
+   *  @param  {Number} inMin  input range minimum
    *  @param  {Number} inMax  input range maximum
-   *  @param  {Number} outMin input range minumum
+   *  @param  {Number} outMin input range minimum
    *  @param  {Number} outMax input range maximum
    *  @return {p5.Envelope} Envelope Returns this envelope
    *                                     with scaled output
