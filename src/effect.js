@@ -139,7 +139,7 @@ class Effect {
   }
 
   dispose() {
-    // remove refernce form soundArray
+    // remove reference from soundArray
     var index = p5sound.soundArray.indexOf(this);
     p5sound.soundArray.splice(index, 1);
 
