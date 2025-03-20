@@ -7,7 +7,7 @@ import Effect from './effect';
  * and fuller sound by lowering the volume of louds and raising that of softs.
  * Compression can be used to avoid clipping (sound distortion due to
  * peaks in volume) and is especially useful when many sounds are played
- * at once. Compression can be used on indivudal sound sources in addition
+ * at once. Compression can be used on individual sound sources in addition
  * to the main output.
  *
  * This class extends <a href = "/reference/#/p5.Effect">p5.Effect</a>.
@@ -124,7 +124,7 @@ class Compressor extends Effect {
   }
 
   /**
-   * Set the paramters of a compressor.
+   * Set the parameters of a compressor.
    * @method  set
    * @for p5.Compressor
    * @param {Number} attack     The amount of time (in seconds) to reduce the gain by 10dB,
